@@ -31,10 +31,10 @@ Pod::Spec.new do |s|
   s.source_files = 'XRRouter/Classes/**/*'
   
   # s.resource_bundles = {
-  #   'XRRouter' => ['XRRouter/Assets/*.png']
+  #   'XRouter' => ['XRouter/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+
 end
