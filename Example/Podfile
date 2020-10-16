@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'XRRouter_Example' do
+  pod 'XRRouter', :path => '../'
+
+  target 'XRRouter_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
