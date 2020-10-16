@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1EE045BA253974410052B551 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE045B9253974410052B551 /* Book.swift */; };
+		1EE045C72539747E0052B551 /* TestModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE045C02539747D0052B551 /* TestModule.swift */; };
+		1EE045C92539747E0052B551 /* XAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE045C22539747E0052B551 /* XAppDelegate.m */; };
+		1EE045CB2539747E0052B551 /* NSObject_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE045C52539747E0052B551 /* NSObject_extension.swift */; };
+		1EE04614253977680052B551 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE04612253977680052B551 /* MainViewController.swift */; };
+		1EE04615253977680052B551 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE04613253977680052B551 /* TestViewController.swift */; };
 		31F41A28159C9CB7249D3067 /* Pods_XRRouter_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 771668887E7B1A2D5C56A997 /* Pods_XRRouter_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* XRROUTERAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* XRROUTERAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* XRROUTERViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* XRROUTERViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -37,8 +41,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03B0CA61AC38DDF4411F5DAA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		03B0CA61AC38DDF4411F5DAA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		19236A61D09B6B3E0B3C9C49 /* Pods-XRRouter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XRRouter_Tests.release.xcconfig"; path = "Target Support Files/Pods-XRRouter_Tests/Pods-XRRouter_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1EE045B8253974400052B551 /* XRRouter_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XRRouter_Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		1EE045B9253974410052B551 /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		1EE045C02539747D0052B551 /* TestModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestModule.swift; sourceTree = "<group>"; };
+		1EE045C22539747E0052B551 /* XAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XAppDelegate.m; sourceTree = "<group>"; };
+		1EE045C32539747E0052B551 /* XAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XAppDelegate.h; sourceTree = "<group>"; };
+		1EE045C52539747E0052B551 /* NSObject_extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObject_extension.swift; sourceTree = "<group>"; };
+		1EE04612253977680052B551 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1EE04613253977680052B551 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* XRRouter_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XRRouter_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,10 +59,6 @@
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6003F59B195388D20070C39A /* XRRouter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XRRouter-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* XRROUTERAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XRROUTERAppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* XRROUTERAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XRROUTERAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* XRROUTERViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XRROUTERViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* XRROUTERViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XRROUTERViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* XRRouter_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XRRouter_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -61,9 +69,9 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		771668887E7B1A2D5C56A997 /* Pods_XRRouter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XRRouter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		850A18E9568946E716A0159D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		850A18E9568946E716A0159D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8C65B7714EB5D6ACA2EF6934 /* XRRouter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XRRouter.podspec; path = ../XRRouter.podspec; sourceTree = "<group>"; };
+		8C65B7714EB5D6ACA2EF6934 /* XRRouter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XRRouter.podspec; path = ../XRRouter.podspec; sourceTree = "<group>"; };
 		A00312A92181191FF6A4D382 /* Pods-XRRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XRRouter_Example.release.xcconfig"; path = "Target Support Files/Pods-XRRouter_Example/Pods-XRRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F4A15A2DA3C693753D60CCE5 /* Pods-XRRouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XRRouter_Example.debug.xcconfig"; path = "Target Support Files/Pods-XRRouter_Example/Pods-XRRouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F5FB0FC14E2741DDA96F2215 /* Pods_XRRouter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XRRouter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +103,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1EE04611253977610052B551 /* page */ = {
+			isa = PBXGroup;
+			children = (
+				1EE04612253977680052B551 /* MainViewController.swift */,
+				1EE04613253977680052B551 /* TestViewController.swift */,
+			);
+			name = page;
+			sourceTree = "<group>";
+		};
+		1EE0461A253977790052B551 /* module */ = {
+			isa = PBXGroup;
+			children = (
+				1EE045C02539747D0052B551 /* TestModule.swift */,
+			);
+			name = module;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -132,14 +157,17 @@
 		6003F593195388D20070C39A /* Example for XRRouter */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* XRROUTERAppDelegate.h */,
-				6003F59D195388D20070C39A /* XRROUTERAppDelegate.m */,
+				1EE0461A253977790052B551 /* module */,
+				1EE04611253977610052B551 /* page */,
+				1EE045C52539747E0052B551 /* NSObject_extension.swift */,
+				1EE045C32539747E0052B551 /* XAppDelegate.h */,
+				1EE045C22539747E0052B551 /* XAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* XRROUTERViewController.h */,
-				6003F5A6195388D20070C39A /* XRROUTERViewController.m */,
+				1EE045B9253974410052B551 /* Book.swift */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				1EE045B8253974400052B551 /* XRRouter_Example-Bridging-Header.h */,
 			);
 			name = "Example for XRRouter";
 			path = XRRouter;
@@ -193,7 +221,6 @@
 				6010CC3F8029F766FB17AD52 /* Pods-XRRouter_Tests.debug.xcconfig */,
 				19236A61D09B6B3E0B3C9C49 /* Pods-XRRouter_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +275,10 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "wnwn7375@outlook.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 34E33HKWXL;
+						LastSwiftMigration = 1200;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +289,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -364,8 +396,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F59E195388D20070C39A /* XRROUTERAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* XRROUTERViewController.m in Sources */,
+				1EE04615253977680052B551 /* TestViewController.swift in Sources */,
+				1EE045C72539747E0052B551 /* TestModule.swift in Sources */,
+				1EE045BA253974410052B551 /* Book.swift in Sources */,
+				1EE045CB2539747E0052B551 /* NSObject_extension.swift in Sources */,
+				1EE04614253977680052B551 /* MainViewController.swift in Sources */,
+				1EE045C92539747E0052B551 /* XAppDelegate.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,12 +530,17 @@
 			baseConfigurationReference = F4A15A2DA3C693753D60CCE5 /* Pods-XRRouter_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 34E33HKWXL;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XRRouter/XRRouter-Prefix.pch";
 				INFOPLIST_FILE = "XRRouter/XRRouter-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "XRRouter/XRRouter_Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
@@ -510,12 +551,16 @@
 			baseConfigurationReference = A00312A92181191FF6A4D382 /* Pods-XRRouter_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 34E33HKWXL;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XRRouter/XRRouter-Prefix.pch";
 				INFOPLIST_FILE = "XRRouter/XRRouter-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "XRRouter/XRRouter_Example-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
@@ -525,6 +570,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6010CC3F8029F766FB17AD52 /* Pods-XRRouter_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -550,6 +596,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 19236A61D09B6B3E0B3C9C49 /* Pods-XRRouter_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",

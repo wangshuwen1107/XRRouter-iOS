@@ -22,7 +22,7 @@ pod 'XRRouter'
 
 ## Author
 
-wnwn7375@outlook.com, wangshuwen@souche.com
+wnwn7375@outlook.com
 
 ## License
 

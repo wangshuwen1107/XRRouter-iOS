@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/wnwn7375@outlook.com/XRRouter'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'wnwn7375@outlook.com' => 'wangshuwen@souche.com' }
+  s.author           = { 'wnwn7375@outlook.com' => 'wnwn7375@outlook.com' }
   s.source           = { :git => 'https://github.com/wnwn7375@outlook.com/XRRouter.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

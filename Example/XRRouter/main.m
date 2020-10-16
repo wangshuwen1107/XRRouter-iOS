@@ -7,11 +7,11 @@
 //
 
 @import UIKit;
-#import "XRROUTERAppDelegate.h"
+#import "XAppDelegate.h"
 
 int main(int argc, char * argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([XRROUTERAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([XAppDelegate class]));
     }
 }
