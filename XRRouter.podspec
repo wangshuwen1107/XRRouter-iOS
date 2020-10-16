@@ -17,13 +17,13 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = '多模块路由通讯框架,为组件化提供良好的解决方案''
+  s.description      = '多模块路由通讯框架,为组件化提供良好的解决方案'
 
-  s.homepage         = 'https://github.com/wnwn7375@outlook.com/XRRouter'
+  s.homepage         = 'https://github.com/wangshuwen1107/XRRouter-iOS'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'wnwn7375@outlook.com' => 'wnwn7375@outlook.com' }
-  s.source           = { :git => 'https://github.com/wnwn7375@outlook.com/XRRouter.git', :tag => s.version.to_s }
+  s.author           = { 'wangshuwen' => 'wnwn7375@outlook.com' }
+  s.source           = { :git => 'https://github.com/wangshuwen1107/XRRouter-iOS.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
