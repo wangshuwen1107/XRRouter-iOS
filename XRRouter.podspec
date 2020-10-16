@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'XRRouter'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of XRRouter.'
+  s.summary          = 'A Router for iOS APP'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = '多模块路由通讯框架,为组件化提供良好的解决方案''
 
   s.homepage         = 'https://github.com/wnwn7375@outlook.com/XRRouter'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
