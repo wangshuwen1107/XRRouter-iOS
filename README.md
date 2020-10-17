@@ -1,4 +1,4 @@
-![XRRoute](media/XRRouter.png)
+![](media/XRRouter.png)
 
 # XRRouter
 
