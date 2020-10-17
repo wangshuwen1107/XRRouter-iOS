@@ -36,7 +36,6 @@ class TestModule: NSObject, XRRouterProtocol {
             method.selector = #selector(getAsyncBook(requestId:name:))
             method.returnType = .empty
         }
-        
     }
 
     @objc static func getBook(name: String,
